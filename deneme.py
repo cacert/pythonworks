@@ -17,6 +17,7 @@ def c():
     numsp = [num for num in nums if num > 0 ]
     return numsp
 
+
 import sys
 try:
     print(c())
