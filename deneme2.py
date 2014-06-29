@@ -1,3 +1,4 @@
+#comment eklendi
 def a():
     sentence = "the quick brown fox jumps over the lazy dog"
     words = sentence.split()
