@@ -1,4 +1,0 @@
-def.txt
-insert
-kasim
-inside def
