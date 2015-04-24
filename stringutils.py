@@ -1,3 +1,5 @@
+#!/Users/kasimsert/anaconda/anaconda/bin/python
+#sudo chmod a+x stringutils.py
 import xerox
 import sys
 def main(argv):
