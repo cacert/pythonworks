@@ -33,12 +33,16 @@ def csvtojson():
          
 
 
-def appendDate():
+def appendDate(columname, value):
     with open('stat_son.csv', 'w') as outfile:
         with open('stat.csv', 'rb') as csvfile:
+            i =0
             for line in csvfile:
-                outfile.write(line.rstrip()+',2015/05/21\n')
+                if(i==0):
+                    outfile.write(line.rstrip()+',' +columname+'\n')
+                else:
+                    outfile.write(line.rstrip()+',' +value+'\n')
             
-appendDate()
+appendDate('date','2015/05/21')
 
     
