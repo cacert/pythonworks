@@ -1,1 +1,1 @@
-my python utilities for using daily and practise purposes.
+my python utilities for daily purposes.
